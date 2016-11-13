@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_presentacion"
+    android:id="@+id/activity_paso2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -9,34 +9,27 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@color/colorLight"
-    tools:context="com.jlixerkun.singleapp.Presentacion"
-    android:weightSum="1">
+    tools:context="com.jlixerkun.singleapp.Paso2">
     <ImageView
-        android:layout_width="match_parent"
         android:layout_marginTop="@dimen/activity_large_vertical_margin"
-        android:layout_height="wrap_content"
-        android:src="@drawable/formarte" />
-
-
-    <com.jlixerkun.singleapp.TextoPersonalizado
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/bienvenida"
-        android:textSize="@dimen/large_text"
-        android:textAlignment="center"
-        android:textColor="@color/colorAccent"/>
+        android:src="@drawable/formarte"/>
+
+   <com.jlixerkun.singleapp.TextoPersonalizado
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textColor="@color/colorBlue"
+       android:textSize="@dimen/mid_text"
+       android:text="Hola, kun has logrado llegar al final"/>
 
     <Button
-        android:text="@string/continuar"
-        android:background="@drawable/btn_primary"
-        android:layout_width="150dp"
+        android:id="@+id/btn_salir"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="end"
+        android:background="@drawable/btn_primary"
         android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:id="@+id/buttonContinuar"
-        android:onClick="continuar"
-        android:textAlignment="center" />
-
+        android:text="@string/salir"
+        android:onClick="exitApp"/>
 
 </LinearLayout>

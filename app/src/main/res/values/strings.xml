@@ -1,8 +1,14 @@
 <resources>
     <string name="app_name">Aplicación Prueba</string>
     <string name="bienvenida">¡Bienvenidos a mi primera aplicación!</string>
-    <string name="texto_entrada">Esta es una aplicación de prueba para poner en práctica los conociemientos adquiridos.</string>
+    <string name="texto_entrada">Esta es una aplicación de prueba para poner en práctica los conociemientos adquiridos. Por favor introduce tus datos. Gracias</string>
     <string name="continuar">Continuar</string>
+    <string name="salir">Salir</string>
+    <string name="atras">Volver</string>
+    <string name="usuario">Nombre de usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="acepta">Check si aceptas las condiciones</string>
+    <string name="mensaje_no_acepta">Debes aceptar las condiciones para continuar!</string>
 
     <!--Fontawesome-->
     <!--fa-handshake-o [&#xf2b5;]-->
