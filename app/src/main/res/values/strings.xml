@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">SingleApp</string>
+    <string name="app_name">Aplicación Prueba</string>
+    <string name="bienvenida">¡Bienvenidos a mi primera aplicación!</string>
+    <string name="texto_entrada">Esta es una aplicación de prueba para poner en práctica los conociemientos adquiridos.</string>
+    <string name="continuar">Continuar</string>
+
+    <!--Fontawesome-->
+    <!--fa-handshake-o [&#xf2b5;]-->
+    <string name="fa_handshake">&#xf2b5;</string>
+
 </resources>
